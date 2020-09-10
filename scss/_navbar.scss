@@ -1,0 +1,20 @@
+ul{
+    list-style-type: none;
+
+    li{
+        display: inline;
+
+        a{
+            color: #5f6368;
+            text-decoration: none;
+            margin-left: 0.75em;
+            margin-right: 0.75em;
+            font-size: 13px;
+
+            &:hover{
+                text-decoration: underline;
+             }
+        }
+     }
+ 
+ }
