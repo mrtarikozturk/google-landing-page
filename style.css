@@ -29,4 +29,18 @@ footer .footer-right {
   margin: 0 12px 0 0;
 }
 
+header .header-left {
+  float: left;
+  padding: 0px;
+}
+header .header-right {
+  float: right;
+  margin: 20px;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*# sourceMappingURL=style.css.map */

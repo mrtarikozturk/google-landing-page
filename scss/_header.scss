@@ -1,0 +1,17 @@
+header {
+  .header-left {
+    float: left;
+    padding: 0px;
+  }
+
+  .header-right {
+    float: right;
+    margin: 20px;
+  }
+
+  &::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
