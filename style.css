@@ -37,6 +37,27 @@ header .header-right {
   float: right;
   margin: 20px;
 }
+header .header-right #appicon {
+  vertical-align: middle;
+  opacity: 0.5;
+}
+header .header-right #appicon:hover {
+  opacity: 1;
+}
+header .header-right #sign-in-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+}
+header .header-right #sign-in-button:hover {
+  cursor: pointer;
+}
+header .header-right #sign-in-button:active {
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
+}
 header::after {
   content: "";
   display: table;
@@ -58,6 +79,80 @@ ul li a {
 }
 ul li a:hover {
   text-decoration: underline;
+}
+
+main #google-logo {
+  width: 272px;
+  height: 92px;
+  display: block;
+  margin: 109px auto;
+}
+main .searchbar {
+  width: 583px;
+  height: 44px;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  margin: 28px auto;
+}
+main .searchbar:hover {
+  box-shadow: 0 0 10px lightgray;
+}
+main .searchbar #mag {
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  position: relative;
+  top: 9px;
+  left: 8px;
+}
+main .searchbar #search {
+  height: 33px;
+  width: 460px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  position: relative;
+  top: 3px;
+  font-size: 16px;
+}
+main .searchbar #microphone {
+  height: 24px;
+  position: relative;
+  top: 9px;
+  right: -20px;
+  cursor: pointer;
+}
+main .searchbar #keyboard {
+  vertical-align: middle;
+  cursor: pointer;
+}
+main .btn-container {
+  text-align: center;
+}
+main .btn-container #btn1,
+main .btn-container #btn2 {
+  height: 36px;
+  min-width: 120px;
+  background-color: #f2f2f2;
+  border: 1px solid #f8f8f8;
+}
+main .btn-container #btn1:hover,
+main .btn-container #btn2:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222222;
+  cursor: pointer;
+  border: none;
+}
+main #language {
+  text-align: center;
+  margin-top: 32px;
+  font-size: small;
+}
+main #language a {
+  color: #1967d2;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
