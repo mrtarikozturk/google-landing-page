@@ -1,0 +1,26 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 40px;
+
+    .country{
+        border-bottom: 1px solid #e4e4e4;
+        padding-left: 10px;
+    }
+
+    .footer-left{
+        float: left;
+        padding: 0;
+    }
+
+    .footer-right{
+        float: right;
+        margin: 0 12px 0 0 ;
+    }
+    
+    
+}
